@@ -2,5 +2,7 @@ div {
     width: 70px;
     height: 70px;
     border: 3px solid #d850e4;
-    background-color: #0093ff;
+    /* background-color: #0093ff; */ /* normal recommend*/
+    background-color: rgba(180, 40, 10, 0.5); /* rgb function recommend*/
+    /* background-color: hsl(11, 80%, 60%); */ /* hsl function  not recommend*/
 }
