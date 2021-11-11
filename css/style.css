@@ -1,32 +1,34 @@
-/* Learn How To Use Combinators in CSS */
+/* Learn How To Use Pseudo-classes and Pseudo-elements in CSS */
 
 /* 
-    
-    CSS - Combinators
 
-    - Descendant Selector (space)
-    - Child Selector (>)
-    - Adjacent Sibling Selector (+)
-    - General Sibling Selector (grave)
+    : Pseudo-classes
+    :: Pseudo-elements
 
 */
 
-/* div p {
-    background: yellow;
+/* div {
+    width: 100px;
+    height: 100px;
+    background: black;
 } */
 
-/* div > p {
-    background: yellow;
+/* div:hover {
+    background: red;
 } */
 
-/* div + p {
-    background: yellow;
+/* p::first-line {
+    font-size: 36px;
 } */
 
-/* div + section {
-    background: yellow;
+/* p:first-child::first-line {
+    font-size: 36px;
 } */
 
-div ~ p {
-    background: yellow;
+p::before {
+    content: "This is inserted from ::before =>";
+}
+
+p::after {
+    content: "<= This is inserted from ::after";
 }
