@@ -1,13 +1,5 @@
-/* Learn How To Use Width and Max-Width in CSS */
+/* Learn How To Use Zindex properties in CSS */
 
-.ex1 {
-    width: 500px;
-    border: 2px solid green;
-    
-}
-
-.ex2 {
-    max-width: 500px;
-    border: 2px solid red;
+.box1 {
     
 }
