@@ -1,10 +1,32 @@
-/* Learn How To Use Overflow to contain image in CSS */
+/* Learn How To Use Combinators in CSS */
 
-div {
-    border: 2px solid black;
-    overflow: auto;
-}
+/* 
+    
+    CSS - Combinators
 
-img {
-    float: right;
+    - Descendant Selector (space)
+    - Child Selector (>)
+    - Adjacent Sibling Selector (+)
+    - General Sibling Selector (grave)
+
+*/
+
+/* div p {
+    background: yellow;
+} */
+
+/* div > p {
+    background: yellow;
+} */
+
+/* div + p {
+    background: yellow;
+} */
+
+/* div + section {
+    background: yellow;
+} */
+
+div ~ p {
+    background: yellow;
 }
