@@ -1,34 +1,19 @@
-/* Learn How To Use Box Model, Margin, Padding in CSS */
+/* Learn How To Use Display in CSS */
 
 div {
+    background-color: red;
+    display: inline;
+}
 
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    color: white;
-    padding: 10px;
+.visibility {
+    visibility: hidden;
+}
 
-    /* long hand */
-    margin-top: ;
-    margin-right: ;
-    margin-bottom: ;
-    margin-left: ;
+.hidden {
+    display: none;
+}
 
-    /* short hand */
-    margin: 0 0 0 0; /* margin: top right bottom left;  */
-    margin: 10px 20px 10px; /* margin: top leftright bottom ;  */
-    margin: 10px 20px; /* margin: topbottom leftright;  */
-    margin: 0 auto;
-
-    /* long hand */
-    padding-top: ;
-    padding-right: ;
-    padding-bottom: ;
-    padding-left: ;
-
-    /* short hand */
-    padding: 0 0 0 0; /* padding: top right bottom left;  */
-    padding: 10px 20px 10px; /* padding: top leftright bottom ;  */
-    padding: 10px 20px; /* padding: topbottom leftright;  */
-    padding: 0 auto;
+span{
+    background-color: green;
+    display: block;
 }
