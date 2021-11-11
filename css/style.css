@@ -1,8 +1,9 @@
-div { 
-    width: 70px;
-    height: 70px;
-    border: 3px solid #d850e4;
-    /* background-color: #0093ff; */ /* normal recommend*/
-    background-color: rgba(180, 40, 10, 0.5); /* rgb function recommend*/
-    /* background-color: hsl(11, 80%, 60%); */ /* hsl function  not recommend*/
+/* Learn How To Use Fonts in CSS */
+@font-face {
+    font-family: Prompt-Regular;
+    src: url(../fonts/Prompt-Regular.woff);
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
 }
