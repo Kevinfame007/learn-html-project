@@ -1,15 +1,37 @@
-/* Learn How To Use Background in CSS */
+/* Learn How To Use Border in CSS */
 
+/* name of values you can use
+
+    dotted - Defines a dotted border
+    dashed - Defines a dashed border
+    solid - Defines a solid border
+    double - Defines a double border
+    groove - Defines a 3D grooved border. Then effect depends on the border-color value
+    ridge - Defines a 3D ridge border. The effect depends on the border-color value
+    inset - Defines a 3D insert border. The effect depends on the border-color value
+    outset - Defines a 3D outset border. The effect depends on the border-color value
+    none - Defines no border
+    hidden - Defines a hidden border
+*/
 div {
+
+    
     width: 300px;
     height: 300px;
-    /* Long Hand */
-    /* background-image: url(../img/img2.png);
-    background-repeat: no-repeat;
-    background-color: red;
-    background-size: cover;
-    background-position: 50% 50% */;
 
-    /* Short Hand */
-    background: url(../img/img2.png) no-repeat;
+    /* long hand */
+    border-width: 10px;
+    border-style: dashed;
+    border-color: pink;
+
+    /* short hand */
+    border: 1px dotted purple;
+    /* border-style: dotted; */
+    /* border-style: double; */
+    /* border-style: groove; */
+    /* border-style: ridge; */
+    /* border-style: inset; */
+    /* border-style: outset; */
+    /* border-style: none; */
+    /* border-style: hidden; */
 }
