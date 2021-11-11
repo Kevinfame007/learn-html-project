@@ -1,13 +1,29 @@
-/* Learn How To Use Width and Max-Width in CSS */
+/* Learn How To Use z-index properties in CSS */
 
-.ex1 {
-    width: 500px;
-    border: 2px solid green;
-    
+.box1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 2px solid black;
+    position: relative;
+    top: 50px;
+    z-index: 2;
 }
 
-.ex2 {
-    max-width: 500px;
-    border: 2px solid red;
-    
+.box2 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    border: 2px solid black;
+    z-index: 1;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background: purple;
+    border: 2px solid black;
+    position: relative;
+    top: -40px;
+    z-index: -1;
 }
