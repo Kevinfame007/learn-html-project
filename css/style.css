@@ -1,5 +1,5 @@
-div {
-    width: 300px;
+div { /* This is a selector */
+    width: 300px; /* This is a properties and value */
     height: 150px;
-    background-color: red;
+    background-color: #000;
 }
