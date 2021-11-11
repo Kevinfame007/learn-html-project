@@ -1,19 +1,13 @@
-/* Learn How To Use Display in CSS */
+/* Learn How To Use Width and Max-Width in CSS */
 
-div {
-    background-color: red;
-    display: inline;
+.ex1 {
+    width: 500px;
+    border: 2px solid green;
+    
 }
 
-.visibility {
-    visibility: hidden;
-}
-
-.hidden {
-    display: none;
-}
-
-span{
-    background-color: green;
-    display: block;
+.ex2 {
+    max-width: 500px;
+    border: 2px solid red;
+    
 }
